@@ -1,0 +1,27 @@
+# Change the "sixarm" to your own website
+Sitemap: http://sixarm.com/sitemap.xml
+
+# Use these rules for all user agents
+User-agent: *
+
+# Disallow filename extensions
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.ht$
+Disallow: /*.hti$
+Disallow: /*.inc$
+Disallow: /*.php$
+
+# Disallow CGI runnable scripts
+Disallow: /cgi/
+Disallow: /cgi-bin/
+
+# Disallow Wordpress blogging scripts
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /trackback/
+Disallow: /feed/
+
